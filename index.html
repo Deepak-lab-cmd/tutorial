@@ -3,9 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Deepak Tiwari</title>
+  
 </head>
 <body>
-    <h1>this is example header</h1>
+    <header>
+        <h1>Deepak Tiwari</h1>
+    
+        <p style="padding: 1px;">Web Developer</p>
+        <div class="toggle-button" onclick="toggleMobileMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- banner -->
+        <div class="banner">
+            <img src="/images/Untitled-1.png" class="banner1" alt="banner" width="85%">
+            <img src="/images/Untitled-2.png" class="banner2" width="90%" alt="">
+        </div>
+
+
+        <section id="about">
+            <h2>About Me:</h2>
+            <p>Hi my name is deepak. I'am frontent designer.
+                I have done my B. C. A. from nehru gram bharati university.
+                I specialize in web and app design, front end devlopment, user experience, and creating identities.
+                
+                I've work with companies of all shapes and sizes.
+                <P> I set out a journey to answer the question <q><b>What knowledge and skills do I need to thrive in 21ts century?</b>
+                </q></P> 
+            </p><hr>
+            <a href="#"  id="cv">View CV</a>
+        </section>
+        <br>
+        <!-- project- section -->
+        <section id="portfolio">
+            <h2>Projects :</h2>
+
+           <div class="project-section">
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>Description of Project 1 goes here.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>Description of Project 2 goes here.</p>
+            </div>
+
+            <div class="portfolio-item">
+                <h3>Project 3</h3>
+                <p>Description of Project 3 goes here.</p>
+            </div>
+
+           </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+       
+        
+
+
+        <!-- skills section -->
+        <section id="portfolio">
+            <h2>Skills :</h2>
+
+           <div class="project-section">
+            <div class="portfolio-item">
+                <h3>HTML</h3>
+               
+                <div class="progress-container">
+                    <div class="progress-bar" id="html-progress">HTML: 0%</div>
+                </div>
+                
+               
+            </div>
+            <div class="portfolio-item">
+                <h3>CSS</h3>
+                <div class="progress-container">
+                    <div class="progress-bar" id="css-progress">CSS: 0%</div>
+                </div>
+                
+            </div>
+
+            <div class="portfolio-item">
+                <h3>JavaScript</h3>
+               
+                <div class="progress-container">
+                    <div class="progress-bar" id="js-progress">JS: 0%</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <h3>Bootstrap</h3>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="boot-progress">react: 0%</div>
+                </div>
+               
+            </div>
+            <div class="portfolio-item">
+                <h3>React JS</h3>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="react-progress">react: 0%</div>
+                </div>
+
+                
+            </div>
+           
+           </div>
+           <!-- more skills -->
+           <div class="project-section">
+            <div class="portfolio-item">
+                <h4>MS Word</h4>
+                <div class="progress-container">
+                    <div class="progress-bar" id="wo-progress">word: 0%</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <h4>MS Execl</h4>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="ex-progress">word: 0%</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <h4>MS Powerpoint</h4>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="ppt-progress">word: 0%</div>
+                </div>
+            </div>
+            <!-- <div class="portfolio-item">
+                <h4>Other skills</h4>
+               
+            </div> -->
+           </div>
+
+           
+            <!-- Add more portfolio items as needed -->
+        </section>
+       
+        <!-- contact -->
+
+        <section id="contact">
+            <h2>Contact Me:</h2>
+            <address><b>Add: <br></b>(221508)prayagraj, uttarpradesh, india.</address>
+            <br>
+            <p>Email: deepaktu00@gmail.com</p>
+            <P><a href="mailto:deepaktu00@gmail.com">Send mail</a></P>
+            <p>Phone:8400278903</p>
+            <P><a href="tel:8400278903">Call now</a></P>
+            <a href="#"><img src="/images/facebook.png" alt="facebook"></a>&nbsp;
+            <a href="#"><img src="/images/github.png" alt="github"></a>&nbsp
+            <a href="#"><img src="images/linkedin.png" alt=""></a>
+        </section>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#portfolio">Skills</a>
+        <a href="projects.html">Project</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <footer>
+        &copy; 2023 Your Portfolio
+    </footer>
+    <!-- Javascript link -->
+    <script src="script.js"></script>
+   
+
+
+
+
+
+
 </body>
 </html>

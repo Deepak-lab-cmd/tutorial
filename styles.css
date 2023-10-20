@@ -1,0 +1,202 @@
+
+        /* Reset some default styles */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+        .nano{
+                background-color: #ff6600;
+                display:inline-flex;
+                width: 100%;
+            }
+
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ebebeb;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #110606;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: rgb(93, 87, 81);
+            padding: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            
+            margin-right: 20px; 
+        }
+       nav ul li a, .mobile-menu a{
+            border: 2px solid gold;
+            border-radius: 2px;
+            padding: 1px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            
+        }
+
+        nav a:hover {
+            color: #ff6600;
+        }
+
+        /* Main content styles */
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Portfolio item styles */
+        .portfolio-item {
+            background-color: #fff;
+            border: 1px solid #e0dddd;
+            margin: 20px 4px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            width: 100%;
+        }
+        .project-section{
+            display:flex;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Mobile Menu styles */
+        .mobile-menu {
+            display: none;
+            background-color: #444;
+            position: absolute;
+            top: 75px;
+            left: 0;
+            width: 100%;
+            flex-direction: column;
+        }
+
+        .mobile-menu.show {
+            display: flex;
+        }
+
+        .mobile-menu a {
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            
+        }
+
+        /* Toggle button styles */
+        .toggle-button {
+            display: none;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        .toggle-button .bar {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px auto;
+        }
+        /* banner styles */
+        .banner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid rgb(179, 176, 176);
+            
+        }
+
+        /* Media queries for responsive design */
+        @media (min-width: 769px){
+.banner2{
+    display: none;
+      }
+
+        }
+
+
+
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+            a{
+                text-decoration: none;
+            }
+            .banner1{
+    display: none;
+       }
+            .toggle-button {
+                display:block;
+            }
+            .project-section{
+                background-color: #ff6600;
+                display:inline;
+            }
+
+        }
+        h2{
+            color: #ff8f49;
+        }
+     #cv{
+        display:flex;
+        justify-content: center;
+        text-decoration: none;
+        font-weight: 600;
+        background: #e5e5e5;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+
+      /* Add your CSS styles here */
+      .progress-container {
+            width: 100%;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            
+        }
+
+        .progress-bar {
+            width: 0;
+            height: 30px;
+            background-color: #ff8f49;
+            text-align: center;
+            line-height: 30px;
+            color: #000000;
+            border-radius: 10px;
+        }
